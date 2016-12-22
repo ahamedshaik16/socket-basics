@@ -1,0 +1,134 @@
+body{
+    background-color: #F5F5F5;
+	
+	
+}
+.navbar{
+    background-color: #FFF;
+    border-color: #5FB0E4;
+    border-radius: 0;
+    margin-bottom: 0;
+    z-index: 100;
+}
+.content{
+    margin-top:70px;
+}
+#login h1 {
+    color: #1fa67b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.numbersNav {
+	position : absolute;
+	top : 200px;
+	left : 500px;
+	
+}
+
+.form-control{
+    margin-bottom:10px;
+}
+#login .form-wrap,.form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+.pad0{
+    padding:0px;
+}
+#footer{
+    background: #FFF;
+}
+#footer a{
+    margin-right:5px;
+}
+
+.marbottom15{
+    margin-bottom:15px;
+}
+
+.martop15{
+    margin-top:15px;
+}
+.separator{
+    border-left:1px solid gray;
+    height:15px;
+    margin-right:5px;
+}
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 89%;
+    height: auto !important;
+    height: 82%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -100px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+.footer {
+    height: 100px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    .footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+#search{
+    margin-bottom: 10px;
+    clear: both;
+}
+.videoList{
+    border:1px solid #5FB0E4;
+	width:20%;
+    height:300px;
+}
+.videoList div{
+    margin-bottom: 15px;
+}
+.searchPanel{
+    border:1px solid #5FB0E4;
+    padding-bottom: 10%;
+}
+.eventHeader{
+    padding:2%;
+    border:1px solid #5FB0E4;
+    margin-bottom: 15px;
+}
+.eventHeader span{
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+
+.image {
+			width : 80px;
+			
+		}
+		
+		.zoom {
+			width : 0px;
+			position : fixed;
+			top : 150px;
+			left : auto;
+		}
+		
+		.image:hover + .zoom{
+			width : 400px;
+			left : 300px;
+		}
